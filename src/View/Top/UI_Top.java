@@ -6,6 +6,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.Priority;
 import javafx.scene.layout.VBox;
+import javafx.scene.text.Font;
 
 public class UI_Top extends VBox {
 
@@ -35,10 +36,9 @@ public class UI_Top extends VBox {
         Hbox.getChildren().addAll(Save, Delete, New,suchFeld);
         setVgrow(this, Priority.NEVER);
         setMargin(suchFeld, new Insets(0,0,0,150));
-      //  suchFeld.setPadding(new Insets(0,0,0,150));
-        prefHeight(30);
-        setMaxSize(Double.MAX_VALUE, 10);
-
+        //prefHeight(30);
+      //  setMaxSize(Double.MAX_VALUE, 40);
+        //setFont(Font.font(20));
 
     }
 

@@ -42,7 +42,7 @@ public class skyscraper_UI extends BorderPane {
 
     private void layoutControls() {
         setTop(Top);
-        setBottom(splitpane);
+        setCenter(splitpane);
         RightBox.getChildren().addAll(RightUP, RightDown);
         scrollpane.setContent(RightDown);
  /*       scrollpane.setHbarPolicy(ScrollPane.ScrollBarPolicy.ALWAYS);
